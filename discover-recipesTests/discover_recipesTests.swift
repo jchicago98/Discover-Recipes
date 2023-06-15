@@ -1,10 +1,3 @@
-//
-//  discover_recipesTests.swift
-//  discover-recipesTests
-//
-//  Created by Claudia Morin on 6/15/23.
-//
-
 import XCTest
 @testable import discover_recipes
 

@@ -1,10 +1,3 @@
-//
-//  discover_recipesUITestsLaunchTests.swift
-//  discover-recipesUITests
-//
-//  Created by Claudia Morin on 6/15/23.
-//
-
 import XCTest
 
 final class discover_recipesUITestsLaunchTests: XCTestCase {

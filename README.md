@@ -43,7 +43,7 @@ git clone https://github.com/your-username/recipe-app.git
 
 3. Build and run the app on the iOS Simulator or a physical device.
 
-API
+## API
 The app fetches dessert recipes from the TheMealDB API. It uses the following API endpoints:
 
 ```

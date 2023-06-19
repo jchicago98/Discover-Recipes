@@ -35,10 +35,9 @@ With Discover Recipes, the world of culinary wonders is at your fingertips. Whet
 ## Installation
 
 1. Clone the repository:
-
-```bash
+```
 git clone https://github.com/your-username/recipe-app.git
-```bash
+```
 
 2. Open the project in Xcode.
 
@@ -47,6 +46,9 @@ git clone https://github.com/your-username/recipe-app.git
 API
 The app fetches dessert recipes from the TheMealDB API. It uses the following API endpoints:
 
+```
 List of dessert recipes: https://themealdb.com/api/json/v1/1/filter.php?c=Dessert
 Recipe details: https://themealdb.com/api/json/v1/1/lookup.php?i={recipeId}
+```
+
 

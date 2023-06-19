@@ -15,3 +15,37 @@ Key Features:
 With Discover Recipes, the world of culinary wonders is at your fingertips. Whether you're a seasoned chef or an aspiring home cook, this app will elevate your cooking game, impress your loved ones, and awaken your taste buds to a universe of delectable desserts.
 
 
+## Features
+
+- Fetches dessert recipes from an external API.
+- Displays a list of recipes with images and names.
+- Allows users to select a recipe to view its details.
+- Shows recipe details, including the recipe name, image, ingredients, and instructions.
+- Provides placeholder images for recipes without a valid image URL.
+- Supports asynchronous image loading and caching.
+- Uses SwiftUI for building the user interface.
+- Follows the Model-View-ViewModel (MVVM) architectural pattern.
+
+## Requirements
+
+- Xcode 12 or later
+- iOS 14 or later
+- Swift 5
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/recipe-app.git
+
+2. Open the project in Xcode.
+
+3. Build and run the app on the iOS Simulator or a physical device.
+
+API
+The app fetches dessert recipes from the TheMealDB API. It uses the following API endpoints:
+
+List of dessert recipes: https://themealdb.com/api/json/v1/1/filter.php?c=Dessert
+Recipe details: https://themealdb.com/api/json/v1/1/lookup.php?i={recipeId}
+

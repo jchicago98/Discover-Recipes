@@ -38,6 +38,7 @@ With Discover Recipes, the world of culinary wonders is at your fingertips. Whet
 
 ```bash
 git clone https://github.com/your-username/recipe-app.git
+```bash
 
 2. Open the project in Xcode.
 

@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var meals: [Meal] = []
+    @State var meals: [Meal] = []
 
     var body: some View {
         NavigationView {
@@ -19,7 +19,7 @@ struct ContentView: View {
         }
     }
 
-    private func fetchMeals() {
+    func fetchMeals() {
         let url = URL(string: "https://themealdb.com/api/json/v1/1/filter.php?c=Dessert")!
 
         URLSession.shared.dataTask(with: url) { data, response, error in
@@ -77,7 +77,7 @@ struct RecipeCell: View {
 
 struct RecipeDetailView: View {
     var recipe: Meal
-    @State private var recipeInfo: RecipeInfo?
+    @State var recipeInfo: RecipeInfo?
 
     var body: some View {
            ScrollView {
@@ -128,7 +128,7 @@ struct RecipeDetailView: View {
        
     }
     
-    private func fetchRecipeInfo() {
+    func fetchRecipeInfo() {
         let recipeURLString = "https://themealdb.com/api/json/v1/1/lookup.php?i=\(recipe.idMeal)"
         guard let recipeURL = URL(string: recipeURLString) else {
             return
